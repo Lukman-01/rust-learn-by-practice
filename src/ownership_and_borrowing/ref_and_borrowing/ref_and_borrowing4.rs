@@ -17,9 +17,7 @@
 // Fix error
 fn main() {
     let mut s = String::from("hello, ");
-
     push_str(&mut s);
-
     println!("Success!");
 }
 

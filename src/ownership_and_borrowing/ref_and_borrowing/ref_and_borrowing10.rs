@@ -21,7 +21,6 @@ fn main() {
     r1.push_str("world");
     let r2 = &mut s;
     r2.push_str("!");
-    
     //println!("{}",r1); or
     println!("{}",r2);
 }

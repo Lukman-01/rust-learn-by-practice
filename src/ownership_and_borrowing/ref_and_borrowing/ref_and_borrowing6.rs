@@ -21,14 +21,11 @@
 
 
 
-
 fn main() {
     let c: char = '中';
-
     let r1: &char = &c;
     // Fill the blank，dont change other code
     let ref r2 = c;
-
     assert_eq!(*r1, *r2);
     
     // Check the equality of the two address strings
