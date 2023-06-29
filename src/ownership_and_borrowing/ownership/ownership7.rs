@@ -23,6 +23,5 @@ fn main() {
     *y = 4;
     // that means we change the value 1 to 4
     assert_eq!(*x, 5);
-
     println!("Success!");
 }
