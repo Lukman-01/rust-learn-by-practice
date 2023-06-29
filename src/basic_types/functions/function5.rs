@@ -16,7 +16,6 @@
 // }
 
 
-
 fn main() {
     // FILL in the blank
     let b = false;
@@ -29,6 +28,5 @@ fn main() {
             panic!("we have no value for `false`, but we can panic");
         }
     };
-
     println!("Exercise Failed if printing out this line!");
 }

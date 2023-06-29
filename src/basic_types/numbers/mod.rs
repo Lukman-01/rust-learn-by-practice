@@ -1,4 +1,4 @@
-#![allow(dead_code)]
+#![allow(dead_code, unused_variables, unused_assignments)]
 mod numbers1;
 mod numbers2;
 mod numbers3;

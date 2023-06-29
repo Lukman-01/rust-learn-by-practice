@@ -10,7 +10,6 @@
 // }
 
 
-
 // Make it work
 fn main() {
     let c1 = '中'; //single coute for char, while double coute for string

@@ -9,8 +9,6 @@
 //     }
 // } 
 
-
-
 // Make println! work
 fn main() {
     let _f: bool = false;

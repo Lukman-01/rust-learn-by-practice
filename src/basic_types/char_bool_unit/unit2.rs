@@ -8,8 +8,6 @@
 //     println!("Success!");
 // }
 
-
-
 // Modify `4` in assert to make it work
 use std::mem::size_of_val;
 fn main() {

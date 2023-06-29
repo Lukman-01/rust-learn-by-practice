@@ -9,7 +9,6 @@
 // }
 
 
-
 // Make it work
 fn main() {
     let f = false;

@@ -18,8 +18,6 @@
 //     println!("I will return a ()");
 // }
 
-
-
 // Make it work, don't modify `implicitly_ret_unit` !
 
 // A unit type is a type in rust that does not hold any value i.e empty value ()
@@ -33,7 +31,6 @@ fn main() {
 
     println!("Success!");
 }
-
 fn implicitly_ret_unit() {
     println!("I will return a ()");
     // since it doesnt have a return statement, it return a unit type just as below function
