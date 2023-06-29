@@ -18,10 +18,10 @@ fn main() {
         x += 2;
         x
     };
- 
+
     assert_eq!(v, 3);
     //or using assert_eq!(v, ()); since x+=2 is a statement
- 
+
     println!("Success!");
  }
  
