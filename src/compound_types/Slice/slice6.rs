@@ -26,7 +26,7 @@ fn main() {
     let word = first_word(&s);
     println!("the first word is: {}", word);
     s.clear(); // error!
-
+}
 fn first_word(s: &str) -> &str {
     &s[..1]
 }
