@@ -24,11 +24,9 @@ fn main() {
     // Here, &s is `&String` type, but `first_word` need a `&str` type.
     // It works because `&String` can be implicitly converted to `&str. If you want know more, this is called `Deref coercion`. 
     let word = first_word(&s);
-
+    println!("the first word is: {}", word);
     s.clear(); // error!
 
-    println!("the first word is: {}", word);
-}
 fn first_word(s: &str) -> &str {
     &s[..1]
 }
