@@ -9,4 +9,5 @@ mod collectionTypes;
 mod Generics_and_Traits;
 mod type_conversion;
 mod result_panic;
+mod formated_output;
 fn main() {}
