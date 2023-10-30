@@ -10,4 +10,5 @@ mod Generics_and_Traits;
 mod type_conversion;
 mod result_panic;
 mod formated_output;
+mod lifetime;
 fn main() {}
